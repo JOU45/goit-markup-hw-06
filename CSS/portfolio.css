@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.WebStudio{
+    position: absolute;
+    left: 215px;
+    top: 24px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    color: #2196F3;
+    transition: 0.5s;
+}
+.logo_2_element{
+    color: rgb(0, 0, 1)
+}
+.menu_nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 294px;
+    height: 48px;
+    left: 453px;
+    top: 32px;
+    padding: 0px 0px 0px 35px;
+}
+a {
+    text-decoration: none;
+    color: #757575;
+}
+.menu_nav a {
+    list-style: none;
+    transition: 0.2s;
+}
+.menu_nav a:hover {
+    border-bottom: 4px solid #2196F3;
+}
+.Portfolia{
+    color: #2196F3;
+    border-bottom: 4px solid #2196F3;
+}
+.studio:hover , .contact:hover {
+    color: #2196F3;
+    transform: scale(1.05);
+}
+.mail_tel {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    position: absolute;
+    left: 1078px;
+    top: 32px;
+}
+.social_network {
+    width: 161px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.mail{
+    transition: 0.5s;
+}
+.mail:hover {
+    color: #2196F3;
+}
+.tel{
+    text-decoration: none;
+    color: #757575;
+    transition: 0.5s;
+}
+.tel:hover {
+    color: #2196F3;
+}
+hr {
+    position: relative;
+    top: 80px;
+    color: rgba(240, 240, 240, 0.295);
+}
+.menu_button {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top:174px;
+    left: 500px;
+}
+.choose {
+    padding: 6px 22px;
+    background: #F5F4FA;
+    color: black;
+    font-size: 16px;
+    border: none;
+    border-radius:6%;
+    transition: 0.4s;
+}
+.choose:hover {
+    transform: scale(1.05);
+    background: #2196F3;
+    color: white;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.all {
+    padding: 6px 22px;
+    font-size: 16px;
+    border: none;
+    border-radius:6%;
+    background: #2196F3;
+    color: white;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.menu_design {
+    width:1170px;
+    height: 1360px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 215px;
+    top: 255px;
+}
+.design {
+    width: 370px;
+    height: 404px;
+    border: 1px solid #EEEEEE;
+    transition: 0.4s;
+}
+.design:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.advertising {
+    position: relative;
+    top: -335px;
+    left: 0;
+    width: 370px;
+    height: 294px;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 63px 24px 63px 24px;
+    letter-spacing: 0.03em;
+    opacity: 0;
+    transition: opacity .4s;
+}
+.design:hover .advertising {
+    background: rgba(33, 150, 243, 0.9);
+    opacity: 1;
+}
+.profesion {
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+    left: 24px;
+    top: 20px;
+}
+.Web {
+    font-size: 16px;
+    position: relative;
+    left: 24px;
+    top: 40px;
+    color: #757575;
+}
+footer {
+    width: 100%;
+    height: 252px;
+    background: #2F303A;
+    position: absolute;
+    top: 1628px;
+}
+.WebStudio_footer {
+    text-decoration: none;
+    position: absolute;
+    left: 215px;
+    top: 60px;
+    font-weight: 700;
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 31px;
+    color: #2196F3;
+    transition: 0.5s;
+}
+.logo_2_element_footer {
+    color: white;
+}
+.mail_tel_footer {
+    position: absolute;
+    left: 215px;
+    top: 120px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+}
+.location {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+.mail_footer {
+    font-weight: 400;
+    font-size: 14px;
+    transition: 0.5s;
+}
+.mail_footer:hover {
+    color: #2196F3;
+}
+.tel_footer {
+    font-weight: 400;
+    font-size: 14px;
+    transition: 0.5s;
+}
+.tel_footer:hover {
+    color: #2196F3;
+}
+.WebStudio:hover, .WebStudio_footer:hover {
+    transform: scale(1.1);
+}
+.join_in {
+    font-weight: 700;
+    font-size: 14px;
+    position: absolute;
+    left: 516px;
+    top: 70px;  
+    color: white;  
+}
+.icons {
+    position: absolute;
+    left: 516px;
+    top: 110px;
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+}
+.instagram_icon {
+    fill: white;
+    position: absolute;
+    top: 13px;
+    left: 12px;
+    z-index: 2;
+}
+.twitter_icon {
+    fill: white;
+    position: absolute;
+    top: 13px;
+    left: 65px;
+    z-index: 2;
+}
+.facebook_icon {
+    fill: white;
+    position: absolute;
+    top: 13px;
+    left: 122px;
+    z-index: 2;
+}
+.in_icon {
+    fill: white;
+    position: absolute;
+    top: 13px;
+    left: 172px;
+    z-index: 2;
+}
+.circle {
+    fill: #FFFFFF1A;
+    position: absolute;
+    transition: 0.4s;
+}
+.circle:hover {
+    fill: #2196F3;
+} 
